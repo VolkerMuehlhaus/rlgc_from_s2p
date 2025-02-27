@@ -4,9 +4,8 @@ This tool reads S-parameter data (*.s2p) for a single ended
 transmission line with 2 ports, and calculates component values 
 for a RLGC line model
 
-![plot](./doc/rlgc_extraction.png)
+![plot](./doc/rlgc_segments.png)
 
-# Theory of operation:
 The S-parameters at one user defined frequency are extracted 
 and the corresponding series and shunt path elements are calculated.
 Line impedance is calculated from Y11 and Z11.
@@ -14,6 +13,9 @@ RLGC values per meter physical length are calculated.
 
 IMPORTANT: you need to specify the correct physical length as 
 a command line parameter, this is required for calculation!
+
+![plot](./doc/rlgc_extraction.png)
+
 
 # Prerequisites
 The code requires Python3 with the skitkit-rf library.
