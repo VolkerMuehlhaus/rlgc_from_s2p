@@ -13,7 +13,7 @@ Line impedance is calculated from Y11 and Z11.
 RLGC values per meter physical length are calculated.
 
 IMPORTANT: you need to specify the correct physical length as 
-a command line parameter, thsi is required for calculation!
+a command line parameter, this is required for calculation!
 
 # Prerequisites
 The code requires Python3 with the skitkit-rf library.
