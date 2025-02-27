@@ -12,6 +12,9 @@ and the corresponding series and shunt path elements are calculated.
 Line impedance is calculated from Y11 and Z11.
 RLGC values per meter physical length are calculated.
 
+IMPORTANT: you need to specify the correct physical length as 
+a command line parameter, thsi is required for calculation!
+
 # Prerequisites
 The code requires Python3 with the skitkit-rf library.
 https://scikit-rf.readthedocs.io/en/latest/tutorials/index.html
