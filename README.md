@@ -1,6 +1,6 @@
 # rlgc_from_s2p
 
-rlgc_from_s2p reads S-parameter data (*.s2p) for a single ended 
+This tool reads S-parameter data (*.s2p) for a single ended 
 transmission line with 2 ports, and calculates component values 
 for a RLGC line model
 
@@ -18,7 +18,8 @@ https://scikit-rf.readthedocs.io/en/latest/tutorials/index.html
 
 # Usage
 Ro run the RLGC model extraction, specify the *.s2p file as the first parameter, 
-followed by the extraction frequency in GHz, followed by phical line length in microns.
+followed by the extraction frequency in GHz, followed by physical length of the line
+in microns.
 
 example:
 ```
